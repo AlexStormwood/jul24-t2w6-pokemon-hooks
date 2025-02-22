@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import PropTypes from "prop-types";
-import { useUserJwtContext } from "../contexts/UserJwtContext";
+import { useUserJwtContext } from "../hooks/useUserJwtData";
 
 // actionType should be either "login" or "register"
 export function UserForm({actionType}) {

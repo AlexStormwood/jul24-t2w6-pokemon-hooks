@@ -1,4 +1,4 @@
-import { useUserJwtContext } from "../contexts/UserJwtContext";
+import { useUserJwtContext } from "../hooks/useUserJwtData";
 import { jwtDecode } from "jwt-decode";
 
 export function UserProfile(){
