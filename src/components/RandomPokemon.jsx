@@ -60,14 +60,14 @@ export function RandomPokemon(){
 
 	if (name && sprite){
 		return (
-			<div>
+			<div className="pokemonContainer" data-testid="random-pokemon-component" >
 				<h1>{name}</h1>
 				<img src={sprite} />
 			</div>
 		)
 	} else {
 		return (
-			<div>
+			<div className="pokemonContainer" data-testid="random-pokemon-component" >
 				<p>Loading...</p>
 			</div>
 		)
